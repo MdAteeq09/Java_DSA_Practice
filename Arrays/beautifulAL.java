@@ -24,7 +24,7 @@ public class beautifulAL {
         beautifulAL obj = new beautifulAL();
         ArrayList<Integer> result = obj.beautifulArray(n);
 
-        // Print the result
+        // Print the result of beautiful 
         System.out.println("Beautiful ArrayList: " + result);
 
         sc.close();
