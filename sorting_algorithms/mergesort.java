@@ -45,7 +45,7 @@ public class mergesort {
             temp[k++] = arr[j++];
         }
 
-        //copy temp to original arr
+        //copy temp to original array
         for(k=0, i=si; k<temp.length; k++,i++) {
             arr[i] = temp[k];
         }
