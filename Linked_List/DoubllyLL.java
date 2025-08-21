@@ -77,7 +77,7 @@ public class DoubllyLL {
     public static void main(String[] args) {
         DoubllyLL dll = new DoubllyLL();
 
-        //add nodes in LL
+        //add nodes in Linked
         dll.addFirst(3);
         dll.addFirst(2);
         dll.addFirst(1);
