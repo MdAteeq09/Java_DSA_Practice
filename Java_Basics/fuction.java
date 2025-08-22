@@ -4,7 +4,7 @@ public class fuction {
 
         Scanner sc= new Scanner(System.in);
          
-        System.out.print("Enter the number:");
+        System.out.print("Enter the number");
         int digits = sc.nextInt();
 
         System.out.println("The sum is:" + sumDigits(digits));
