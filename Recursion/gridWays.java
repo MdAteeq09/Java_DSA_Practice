@@ -3,7 +3,7 @@ public class gridWays {
         //base case
         if(i == n-1 && j == m-1 ) { //last col conditiom
             return 1;
-        } else if (i == n || j == m) {
+        } else if (i == n || j == m) {// if exit from grid
             return 0;
         }
         
