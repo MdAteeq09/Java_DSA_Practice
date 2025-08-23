@@ -8,8 +8,8 @@ public class gridWays {
         }
         
         //recursive case: Two choices
-        int w1 = gridWays(i+1, j, n, m);
-        int w2 = gridWays(i, j+1, n, m);
+        int w1 = gridWays(i+1, j, n, m); //move down
+        int w2 = gridWays(i, j+1, n, m); //move right
         return w1+w2;
     }
 
