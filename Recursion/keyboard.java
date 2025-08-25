@@ -11,6 +11,8 @@ public class keyboard {
             System.out.println("");
             return;
         }
+
+     // call recurssively the bfs function to generate combination   
      bfs(0,len,new StringBuilder(), D);
     }
     
