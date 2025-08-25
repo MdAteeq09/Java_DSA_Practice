@@ -5,6 +5,8 @@ public class keyboard {
                                    {'t','u','v'},{'w','x','y','z'}};
     public static void letterCombinations(String D) { 
         int len=D.length();
+
+        //if input is empty, just print nothing and return
         if(len==0) {
             System.out.println("");
             return;
