@@ -18,7 +18,7 @@ public class keyboard {
     
  public static void bfs(int pos, int len, StringBuilder sb, String D) {
     if(pos==len) {
-        System.out.println(sb.toString());
+        System.out.println(sb.toString()); // print the combinations
     }else {
         char[] letters = L[Character.getNumericValue(D.charAt(pos))];
         for(int i=0; i<letters.length; i++)
