@@ -20,7 +20,7 @@ public class keyboard {
     if(pos==len) {
         System.out.println(sb.toString()); // print the combinations
     }else {
-        char[] letters = L[Character.getNumericValue(D.charAt(pos))];
+        char[] letters = L[Character.getNumericValue(D.charAt(pos))]; // get the possible letters for the current digit
         for(int i=0; i<letters.length; i++)
          bfs(pos+1, len, new StringBuilder(sb).append(letters[i]),D);
         }
