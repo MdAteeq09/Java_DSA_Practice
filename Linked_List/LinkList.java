@@ -391,7 +391,7 @@ public class LinkList {
 
     public static void main(String[] args) {
     LinkList ll = new LinkList();
-    //add nodes
+    //add nodes in
     ll.addLast(1);
     ll.addLast(2);
     ll.addLast(3);
