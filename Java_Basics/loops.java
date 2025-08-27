@@ -11,7 +11,7 @@ public class loops{
         
         do
         {
-         System.out.println("Enter the number");
+         System.out.print("Enter the number:");
          number = sc.nextInt();
 
          if(number % 2 == 0)
