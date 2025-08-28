@@ -33,6 +33,6 @@ public class Matrices {
             System.out.println();
         }
 
-        Search(matrix, 10); // function 
+        Search(matrix, 10); // function call
     }
 }
