@@ -20,7 +20,7 @@ public class maze {
          return true;
         }
         
-        // Check if maze[x][y] is valid
+        // Check if maze[x][y] is vali
         if(isSafe(maze,x,y) ==true) {
             if(sol[x][y] ==1)
                return false;
