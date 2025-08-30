@@ -10,7 +10,7 @@ public class maze {
     }
 
     public static boolean isSafe(int maze[][], int x, int y) {
-    // if (x, y outside maze) return 
+    // if (x, y outside maze) return false
      return (x>=0&&x<maze.length&&y>=0&&y<maze.length&&maze[x][y]==1);
     }
 
