@@ -20,6 +20,6 @@ public class MonotonicAl {
     A.add(6);
     A.add(2);
     A.add(5);
-    System.out.println(isMonotonic(A)); //function call
+    System.out.println(isMonotonic(A)); //function 
   }
 }
