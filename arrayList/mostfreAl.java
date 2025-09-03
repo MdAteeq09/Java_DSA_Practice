@@ -28,7 +28,7 @@ public class mostfreAl {
         nums.add(1);
         nums.add(100);
 
-        System.out.println(mostFrequent(nums, 12)); 
+        System.out.println(mostFrequent(nums, 12)); //
 
     }
 }
