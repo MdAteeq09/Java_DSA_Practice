@@ -73,6 +73,6 @@ public class nQueens {
      nQueens(board, 0); 
      printBoard(board);
       
-        System.out.println("The possible ways to slove n Queen =" + count);
+        // System.out.println("The possible ways to slove n Queen =" + count);
     }
 }
