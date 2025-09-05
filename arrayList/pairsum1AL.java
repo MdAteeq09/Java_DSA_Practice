@@ -12,7 +12,7 @@ public class pairsum1AL {
         return false;
     }
 
-    public static boolean pairsum(ArrayList<Integer> List, int target) { // 2 pointer approach O(n)
+    public static boolean pairsum(ArrayList<Integer> List, int target) { // 2 pointer approach 
         int lp = 0;
         int rp = List.size()-1;
 
