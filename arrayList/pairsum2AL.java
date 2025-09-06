@@ -6,7 +6,7 @@ public class pairsum2AL {
         int n = List.size();
 
         for(int i=0; i<List.size(); i++) {
-            if(List.get(i) > List.get(i+1)) { // breaking 
+            if(List.get(i) > List.get(i+1)) { // breaking pt
                 bp = i;
                 break;
             }
