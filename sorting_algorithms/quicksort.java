@@ -27,7 +27,7 @@ public class quicksort {
             if(arr[j] <= pivot) {
                 i++;
 
-                
+                //swap
                 int temp = arr[j];
                 arr[j] = arr[i];
                 arr[i] = temp;
