@@ -21,7 +21,7 @@ public class quicksort {
 
     public static int partition (int arr[], int si, int ei) {
         int pivot = arr[ei];
-        int i = si-1; // to make place for ele smaller than pivot
+        int i = si-1; // to make place for ele smaller than 
 
         for(int j=si; j<ei; j++) {
             if(arr[j] <= pivot) {
