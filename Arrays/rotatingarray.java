@@ -30,7 +30,7 @@ public class rotatingarray {
              if(arr[mid] <= tar && tar <= arr[ei]) {
               return search(arr, tar, mid+1, ei);
             }else {
-          
+             //case d : left
                return search(arr, tar, si, mid-1);
             }
         }
