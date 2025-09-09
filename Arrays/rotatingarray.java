@@ -26,7 +26,6 @@ public class rotatingarray {
         
         //mid on line 2
         else{
-            //case c : right
              if(arr[mid] <= tar && tar <= arr[ei]) {
               return search(arr, tar, mid+1, ei);
             }else {
