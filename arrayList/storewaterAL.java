@@ -21,7 +21,7 @@ public class storewaterAL {
         int rp = height.size()-1;
 
         while (lp < rp) {
-            //calculate area of water
+            //calculate area of 
             int ht = Math.min(height.get(lp), height.get(rp));
             int width = rp-lp;
             int currWater = ht*width;
