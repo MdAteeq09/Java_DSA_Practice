@@ -27,7 +27,7 @@ public class storewaterAL {
             int currWater = ht*width;
             maxWater = Math.max(maxWater, currWater);
 
-            //update 
+            //update ptr
             if (height.get(lp) < height.get(rp)) {
                 lp++;
             } else {
