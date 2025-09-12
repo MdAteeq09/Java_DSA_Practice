@@ -12,7 +12,7 @@ public class string {
             char[] str1charArray = str1.toCharArray();
             char[] str2charArray = str2.toCharArray();
 
-            Arrays.sort(str1charArray);/
+            Arrays.sort(str1charArray);
             Arrays.sort(str2charArray);
 
             boolean result = Arrays.equals(str1charArray,str2charArray);
