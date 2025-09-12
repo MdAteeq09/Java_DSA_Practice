@@ -8,7 +8,7 @@ public class string {
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
 
-        if(str1.length() == str2.length()) {//
+        if(str1.length() == str2.length()) {
             char[] str1charArray = str1.toCharArray();
             char[] str2charArray = str2.toCharArray();
 
