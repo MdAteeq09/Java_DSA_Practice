@@ -23,7 +23,7 @@ public class string {
                 System.out.println(str1 + " and " + str2 + "are not paragram of each others");
             }
         }else {
-            System.out.println(str1 + "and" + str2 + "are not paragram of each others");
+            System.out.println(str1 + "and " + str2 + "are not paragram of each others");
         }
     }
 }
