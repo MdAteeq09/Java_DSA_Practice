@@ -39,7 +39,7 @@ public class stringmerge {
         return arr3;
     }
 
-    // This method should be outside 
+    // This method should be outside `merge`
     public static boolean isAlphabeticallySmaller(String str1, String str2) {
         return str1.compareTo(str2) < 0;
     }
