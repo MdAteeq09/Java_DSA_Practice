@@ -36,6 +36,7 @@ public class sudoku {
             return true;
         }
 
+        //recursion
         int nextRow = row, nextCol = col+1;
         if(col+1 == 9) {
             nextRow = row+1;
