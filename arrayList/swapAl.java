@@ -15,7 +15,7 @@ public class swapAl {
         List.add(3);
 
         int idx1 = 1, idx2 = 3;
-        System.out.println(List);//
+        System.out.println(List);
 
         Collections.sort(List);
         System.out.println(List);
