@@ -21,7 +21,7 @@ public class swapAl {
         System.out.println(List);
 
         Collections.sort(List, Collections.reverseOrder());
-        System.out.println(List);//
+        System.out.println(List);
         
         
     }
