@@ -14,6 +14,6 @@ public class twoSum {
         int nums[] = {2,7,11,15};
         int target =9;
         int result [] = twoSum(nums, target);
-        System.out.println("indices: [" + result[0] + " " + result[1] + "]");
+        System.out.println("indices: [" + result[0] + " " + result[1] + "]"); //
     }
 }
