@@ -1,5 +1,6 @@
 public class longestCommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
+        //corner case
         if(strs == null) {
             return "";
         }
