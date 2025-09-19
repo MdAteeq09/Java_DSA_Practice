@@ -4,7 +4,7 @@ public class removeDuplicates {
             return 0;
         }
 
-        //two 
+        //two pointer
         int i=0;
         for(int j=1; j<nums.length; j++) {
             if(nums[i] != nums[j]) {
@@ -14,7 +14,7 @@ public class removeDuplicates {
         }
         return i+1;
     }
-
+    
     public static void main(String agrs []) {
         int nums [] = {1,1,2};
         int newLength = removeDuplicates(nums);
