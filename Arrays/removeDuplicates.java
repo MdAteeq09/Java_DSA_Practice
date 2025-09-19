@@ -1,6 +1,6 @@
 public class removeDuplicates {
     public static int removeDuplicates(int[] nums) {
-        if(nums.length  == 0 ) { // corner case
+        if(nums.length  == 0 ) { // corner 
             return 0;
         }
 
