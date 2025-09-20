@@ -22,7 +22,7 @@ public class removeElements {
         System.out.println("The length of new array is :" + newLength);
         System.out.print("Array after removing elements:");
         for(int k=0; k<newLength; k++) {
-            System.out.print(nums[k] + " ");
+            System.out.print(nums[k] + " ");//
         }
     }
 }
