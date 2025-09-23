@@ -44,7 +44,6 @@ public class threeSum {
         // Call the threeSum method with the input array
         List<List<Integer>> result = solution.threeSum(nums);
         
-        // Print the result to the console
         System.out.println("The unique triplets that sum to zero are: " + result);
     }
 }
