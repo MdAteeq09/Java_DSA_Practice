@@ -35,7 +35,6 @@ public class threeSum {
     
     // Main function to run the threeSum method
     public static void main(String[] args) {
-        // Create an instance of the threeSum class
         threeSum solution = new threeSum();
         
         int[] nums = {-1, 0, 1, 2, -1, -4};
