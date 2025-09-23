@@ -34,12 +34,11 @@ public class threeSum {
     }
     
     public static void main(String[] args) {
+
         threeSum solution = new threeSum();
-        
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        
+
         List<List<Integer>> result = solution.threeSum(nums);
-        
         System.out.println("The unique triplets that sum to zero are: " + result);
     }
 }
