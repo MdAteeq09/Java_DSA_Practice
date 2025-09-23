@@ -38,7 +38,6 @@ public class threeSum {
         // Create an instance of the threeSum class
         threeSum solution = new threeSum();
         
-        // Define an input array
         int[] nums = {-1, 0, 1, 2, -1, -4};
         
         List<List<Integer>> result = solution.threeSum(nums);
