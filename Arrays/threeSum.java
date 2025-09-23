@@ -33,7 +33,6 @@ public class threeSum {
         return new ArrayList<>(result);
     }
     
-    // Main function to run the threeSum method
     public static void main(String[] args) {
         threeSum solution = new threeSum();
         
