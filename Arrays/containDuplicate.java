@@ -10,7 +10,7 @@ public class containDuplicate {
             }
             seen.add(num);
         }
-        return false; // koi duplicate 
+        return false; // koi 
     }
 
     public static void main(String[] args) {
