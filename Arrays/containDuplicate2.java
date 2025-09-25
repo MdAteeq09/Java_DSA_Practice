@@ -31,6 +31,6 @@ public class containDuplicate2 {
 
         int[] nums3 = {1,2,3,1,2,3};
         int k3 = 2;
-        System.out.println(sol.containsNearbyDuplicate(nums3, k3)); 
+        System.out.println(sol.containsNearbyDuplicate(nums3, k3)); //
     }
 }
