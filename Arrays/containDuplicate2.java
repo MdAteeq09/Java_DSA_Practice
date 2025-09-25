@@ -23,7 +23,7 @@ public class containDuplicate2 {
 
         int[] nums1 = {1,2,3,1};
         int k1 = 3;
-        System.out.println(sol.containsNearbyDuplicate(nums1, k1)); 
+        System.out.println(sol.containsNearbyDuplicate(nums1, k1)); // true
 
         int[] nums2 = {1,0,1,1};
         int k2 = 1;
