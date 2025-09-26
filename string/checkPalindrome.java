@@ -17,6 +17,6 @@ public class checkPalindrome {
 
     public static void main(String[] args) {
         int num = 121;
-        System.out.println(isPalindrome(num));
+        System.out.println(isPalindrome(num));//
     }
 }
