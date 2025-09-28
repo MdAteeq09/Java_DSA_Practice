@@ -41,7 +41,7 @@ public class threeSumClosest {
         int arr []= {-1,2,1,-4};
         int target = 1;
 
-        int result = sol.threeSumClosest(arr, target);
+        int result = sol.threeSumClosest(arr, target);//
         System.out.print(result);
     }
 }
