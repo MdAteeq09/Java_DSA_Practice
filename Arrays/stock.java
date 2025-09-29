@@ -17,6 +17,6 @@ public class stock {
     public static void main(String[] args) {
         stock sol = new stock();
         int arr[] = {7,1,5,3,6,4};
-        System.out.print(sol.maxProfit(arr));//
+        System.out.print(sol.maxProfit(arr));
     }
 }
