@@ -1,4 +1,4 @@
-// product
+// product of 
 public class Solution { 
     public int[] productExceptSelf(int[] nums) {
         int left[] = new int[nums.length];
