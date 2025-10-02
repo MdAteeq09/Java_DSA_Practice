@@ -1,4 +1,4 @@
-// product of array
+// product of array Expected
 public class Solution { 
     public int[] productExceptSelf(int[] nums) {
         int left[] = new int[nums.length];
