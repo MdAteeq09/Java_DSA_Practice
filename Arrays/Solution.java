@@ -1,4 +1,4 @@
-public class productExpectedSelf { 
+public class Solution { 
     public int[] productExceptSelf(int[] nums) {
         int left[] = new int[nums.length];
         int right[] = new int[nums.length];
@@ -21,7 +21,7 @@ public class productExpectedSelf {
     }
 
     public static void main(String[] args) {
-        productExpectedSelf sol = new productExpectedSelf();
+        Solution sol = new Solution();
         int[] nums = {1, 2, 3, 4};
         int[] result = sol.productExceptSelf(nums);
         
