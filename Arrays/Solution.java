@@ -18,7 +18,7 @@ public class Solution {
         for(int i = 0; i < nums.length; i++) {
             ans[i] = left[i] * right[i];
         }
-        return ans;//
+        return ans;
     }
 
     public static void main(String[] args) {
