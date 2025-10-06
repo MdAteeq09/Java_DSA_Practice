@@ -19,6 +19,6 @@ public class searchInsertionPosition {
         searchInsertionPosition sol = new searchInsertionPosition();
         int nums [] = {1,3,5,6};
         int target = 5;
-        System.out.println(sol.searchInsert(nums, target));//
+        System.out.println(sol.searchInsert(nums, target));
     }
 }
