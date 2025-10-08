@@ -19,6 +19,6 @@ public class increasingtripletsequence {
         increasingtripletsequence sol = new increasingtripletsequence();
         int nums[] = {2,1,5,0,4,6};
         boolean result = sol.increasingTriplet(nums);
-        System.out.println(result); // jhgffhg
+        System.out.println(result); // jhgff
     }
 }
