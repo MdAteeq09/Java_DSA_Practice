@@ -17,6 +17,6 @@ public class numberOfZeroFilled {
     public static void main(String [] args) {
         numberOfZeroFilled sol = new numberOfZeroFilled();
         int nums [] = {1,3,0,0,2,0,0,4};//array
-        System.out.print(sol.zeroFilledSubarray(nums));//function 
+        System.out.print(sol.zeroFilledSubarray(nums));//function
     } 
 }
