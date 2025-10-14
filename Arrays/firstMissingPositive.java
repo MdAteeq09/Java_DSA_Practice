@@ -14,6 +14,6 @@ public class firstMissingPositive {
     }
     public static void main(String [] args) {
         int nums[] = {7,8,9,11,12};
-        System.out.println(firstMissingPositive(nums));//hsdbv
+        System.out.println(firstMissingPositive(nums));//hsdb
     }
 }
