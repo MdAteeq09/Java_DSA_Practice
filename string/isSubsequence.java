@@ -13,6 +13,6 @@ public class isSubsequence {
     }
     public static void main(String[] args) {
         isSubsequence sol = new isSubsequence();//object creation
-        System.out.println(sol.isSubsequence("abc", "ahbgdc"));// function
+        System.out.println(sol.isSubsequence("abc", "ahbgdc"));// function call
     }
 }
