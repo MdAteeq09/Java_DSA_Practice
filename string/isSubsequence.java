@@ -9,7 +9,7 @@ public class isSubsequence {
             }
         j++;
         }
-        return i == s.length();//return
+        return i == s.length();//
     }
     public static void main(String[] args) {
         isSubsequence sol = new isSubsequence();//object creation
