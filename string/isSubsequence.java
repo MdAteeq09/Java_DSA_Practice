@@ -12,7 +12,7 @@ public class isSubsequence {
         return i == s.length();
     }
     public static void main(String[] args) {
-        isSubsequence sol = new isSubsequence();//object 
+        isSubsequence sol = new isSubsequence();
         System.out.println(sol.isSubsequence("abc", "ahbgdc"));
     }
 }
