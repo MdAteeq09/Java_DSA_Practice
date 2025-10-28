@@ -3,7 +3,7 @@ public class validPalindrome {
         int left = 0, right = s.length() - 1;
 
         while (left < right) {
-            // Non-alphanumeric skip karo
+            // Non-alphanumeric  skip karo
             while (left < right && !Character.isLetterOrDigit(s.charAt(left))) {
                 left++;
             }
