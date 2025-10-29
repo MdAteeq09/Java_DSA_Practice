@@ -8,7 +8,7 @@ public class singleNumber {
     }
     public static void main(String [] args) {
         singleNumber sol = new singleNumber();
-        int [] nums = {2,2,1};//
+        int [] nums = {2,2,1};
         System.out.println(sol.singleNumber(nums));
     }
 }
