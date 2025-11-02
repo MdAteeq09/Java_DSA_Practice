@@ -17,7 +17,7 @@ public class mergeSortedArray {
         }
         
         while (j>=0) {
-            nums1[idx] = nums2[j];
+            nums1[idx] = nums2[j];//
             idx--;
             j--;
         }
