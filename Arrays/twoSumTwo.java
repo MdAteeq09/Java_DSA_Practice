@@ -17,7 +17,7 @@ public class twoSumTwo {
         return new int [] {};
     }
     public static void main(String[] args) {
-        int arr[] = {2,7,11,15};//
+        int arr[] = {2,7,11,15};
         int target = 9;
         twoSumTwo sol = new twoSumTwo();
         int res [] = sol.twoSum(arr, target);
