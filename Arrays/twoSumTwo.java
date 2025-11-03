@@ -21,6 +21,6 @@ public class twoSumTwo {
         int target = 9;
         twoSumTwo sol = new twoSumTwo();
         int res [] = sol.twoSum(arr, target);
-        System.out.println("Indices:[" + res[0] + " , " +res[1]+ "]");// hi hi
+        System.out.println("Indices:[" + res[0] + " , " +res[1]+ "]");// hi 
     }
 }
