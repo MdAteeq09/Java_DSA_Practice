@@ -1,6 +1,6 @@
 public class trapingRainWater {
     public int trap(int[] height) {
-        int n = height.length, ans =0, l=0, r=n-1, lm=0, rm=0;
+        int n = height.length, ans =0, l=0, r=n-1, lm=0, rm=0;//
 
         while(l < r) {
 
