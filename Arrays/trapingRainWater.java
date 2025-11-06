@@ -4,7 +4,7 @@ public class trapingRainWater {
 
         while(l < r) {
 
-            lm = Math.max(lm, height[l]);//left max
+            lm = Math.max(lm, height[l]);//left
             rm = Math.max(rm, height[r]);
 
             if(lm < rm) {
