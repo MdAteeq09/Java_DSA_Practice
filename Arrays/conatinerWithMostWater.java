@@ -20,6 +20,6 @@ public class conatinerWithMostWater {
     public static void main(String[] args) {
         conatinerWithMostWater sol = new conatinerWithMostWater();
         int height [] = {1,8,6,2,5,4,8,3,7};
-        System.out.println(sol.maxArea(height));// function call
+        System.out.println(sol.maxArea(height));// function 
     }
 }
