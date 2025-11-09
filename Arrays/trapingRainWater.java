@@ -20,6 +20,6 @@ public class trapingRainWater {
     public static void main(String [] args) {
         trapingRainWater sol = new trapingRainWater();
         int ht [] = {4,2,0,3,2,5};
-        System.out.print(sol.trap(ht));
+        System.out.print(sol.trap(ht));//
     }
 }
