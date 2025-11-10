@@ -24,7 +24,7 @@ public class matrixDiagonalSum {
                 arr[i][j] = sc.nextInt();
             }
         }
-        
+
         System.out.print(diagonalSum(arr));
     }
 }
