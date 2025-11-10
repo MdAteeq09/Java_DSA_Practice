@@ -24,6 +24,6 @@ public class matrixDiagonalSum {
                 arr[i][j] = sc.nextInt();
             }
         }
-        System.out.print(diagonalSum(arr));// func call
+        System.out.print(diagonalSum(arr));// func 
     }
 }
