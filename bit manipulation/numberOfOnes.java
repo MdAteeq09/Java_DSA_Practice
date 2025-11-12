@@ -13,6 +13,6 @@ public class numberOfOnes {
     } public static void main(String [] agrs) {
         int n = 11;
         numberOfOnes sol = new numberOfOnes();
-        System.out.print(sol.hammingWeight(n));// func call
+        System.out.print(sol.hammingWeight(n));
     }
 }
