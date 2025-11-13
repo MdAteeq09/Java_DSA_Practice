@@ -13,7 +13,7 @@ public class countingBits {
         countingBits sol = new countingBits();
         int arr[] = sol.countBits(n);
         for(int i=0; i<arr.length; i++) {
-            System.out.print(arr[i] ); //func 
+            System.out.print(arr[i] ); //func
         }
     }
 }
