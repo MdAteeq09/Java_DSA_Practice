@@ -12,6 +12,6 @@ public class reverseBits {
     }
     public static void main(String[] args) {
         int n = 43261596;
-        System.out.println(reverseBits(n));
+        System.out.println(reverseBits(n));//
     }
 }
