@@ -1,6 +1,6 @@
 public class bitwiseAndOfNumberRange {
      public int rangeBitwiseAnd(int left, int right) {
-      while(right > left) {// condition check
+      while(right > left) {
         right = right & (right-1);
       }
       return right;
