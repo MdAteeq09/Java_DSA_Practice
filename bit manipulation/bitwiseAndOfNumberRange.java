@@ -9,6 +9,6 @@ public class bitwiseAndOfNumberRange {
         bitwiseAndOfNumberRange sol = new bitwiseAndOfNumberRange();
         int left = 5;
         int right = 7;
-        System.out.print(sol.rangeBitwiseAnd(left,right));// func call
+        System.out.print(sol.rangeBitwiseAnd(left,right));// func
     }
 }
