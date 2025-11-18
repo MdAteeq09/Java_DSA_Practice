@@ -8,6 +8,7 @@ public class sumOfTwoIntegers {
         return a;
     }
     public static void main(String[] args) {
+        sumOfTwoIntegers sol = new sumOfTwoIntegers();
         int a = 2, b = 3;
         System.out.print(getSum(a,b));
     }
