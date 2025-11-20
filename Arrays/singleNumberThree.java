@@ -18,7 +18,7 @@ public class singleNumberThree {
     }
     public static void main(String[] args) {
         int nums [] = {1,2,1,3,2,5};
-        int res[] = singleNumber(nums);//new array
+        int res[] = singleNumber(nums);//new 
 
         for(int i=0; i<res.length; i++) {
             System.out.print(res[i]);
