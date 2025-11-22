@@ -15,7 +15,7 @@ public class reverseWord {
         return sb.toString();
     }
     public static void main(String[] args) {
-        String str = "hello ";
+        String str = "hello java ";
         System.out.println(reverseWords(str));
     }
 }
