@@ -16,6 +16,6 @@ public class reverseWord {
     }
     public static void main(String[] args) {
         String str = "hello java ";
-        System.out.println(reverseWords(str));//funct
+        System.out.println(reverseWords(str));//function call
     }
 }
