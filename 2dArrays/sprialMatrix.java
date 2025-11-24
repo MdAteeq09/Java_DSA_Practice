@@ -4,7 +4,7 @@ import java.util.List;
 public class sprialMatrix {
     public static List<Integer> spiralOrder(int[][] matrix) {
 
-        List<Integer> result = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();//ll
 
         int startRow = 0;
         int startCol = 0;
