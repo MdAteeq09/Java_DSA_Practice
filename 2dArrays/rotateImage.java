@@ -1,5 +1,5 @@
 public class rotateImage {
-    public void rotate(int[][] matrix) {
+    public static void rotate(int[][] matrix) {
         int n = matrix.length;
 
         for(int i=0; i < (n+1)/2; i++) {
