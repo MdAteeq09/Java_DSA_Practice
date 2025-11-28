@@ -28,9 +28,9 @@ public class validSuduko {
                 if (rows[r].contains(cell)) {
                     return false;
                 }
-
                 rows[r].add(cell);
 
+                
                 if (cols[c].contains(cell)) {
                     return false;
                 }
