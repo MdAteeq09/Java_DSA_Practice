@@ -30,11 +30,10 @@ public class validSuduko {
                 }
                 rows[r].add(cell);
 
-                
+                // col check
                 if (cols[c].contains(cell)) {
                     return false;
                 }
-
                 cols[c].add(cell);
 
                 int boxIdx = 3 * (r / 3) + (c / 3);
