@@ -36,6 +36,7 @@ public class validSuduko {
                 }
                 cols[c].add(cell);
 
+                // box index
                 int boxIdx = 3 * (r / 3) + (c / 3);
 
                 if (boxes[boxIdx].contains(cell)) {
