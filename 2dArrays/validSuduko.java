@@ -23,6 +23,8 @@ public class validSuduko {
                     continue;
                 }
 
+                
+                // row check
                 if (rows[r].contains(cell)) {
                     return false;
                 }
