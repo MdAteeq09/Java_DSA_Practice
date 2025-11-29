@@ -46,7 +46,7 @@ public class gameOfLife {
         }
     }
 
-    // 🔥 MAIN METHOD
+
     public static void main(String[] args) {
         gameOfLife obj = new gameOfLife();
 
