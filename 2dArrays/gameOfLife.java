@@ -1,16 +1,19 @@
+import java.util.Arrays;
+
 public class gameOfLife {
+
     private boolean isValidNeighbor(int x, int y, int[][] board) {
         return (x >= 0 && x < board.length && y >= 0 && y < board[0].length);
     }
 
     public void gameOfLife(int[][] board) {
-        int[] dx = {0, 0, 1, 1, 1, -1, -1, -1};  // 8 directions for neighbors
+        int[] dx = {0, 0, 1, 1, 1, -1, -1, -1}; 
         int[] dy = {1, -1, 1, -1, 0, 0, 1, -1};
 
         int rows = board.length;
         int cols = board[0].length;
 
-        // Step 1: Apply rules using temporary markers
+        // Step 1: Apply rules with temporary markers
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 int liveNeighbors = 0;
@@ -24,27 +27,49 @@ public class gameOfLife {
                     }
                 }
 
-                // Rule 1 or 3: Live cell dies (under/over population)
                 if (board[row][col] == 1 && (liveNeighbors < 2 || liveNeighbors > 3)) {
-                    board[row][col] = -1; // mark as dead
+                    board[row][col] = -1;  
                 }
 
-                // Rule 4: Dead cell becomes live (reproduction)
                 if (board[row][col] == 0 && liveNeighbors == 3) {
-                    board[row][col] = 2; // mark as live
+                    board[row][col] = 2;   
                 }
             }
         }
 
-        // Step 2: Finalize the board state
+        // Step 2: Finalize states
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
-                if (board[row][col] > 0) {
-                    board[row][col] = 1;
-                } else {
-                    board[row][col] = 0;
-                }
+                if (board[row][col] > 0) board[row][col] = 1;
+                else board[row][col] = 0;
             }
+        }
+    }
+
+    // 🔥 MAIN METHOD
+    public static void main(String[] args) {
+        gameOfLife obj = new gameOfLife();
+
+        int[][] board = {
+            {0, 1, 0},
+            {0, 0, 1},
+            {1, 1, 1},
+            {0, 0, 0}
+        };
+
+        System.out.println("Before:");
+        printBoard(board);
+
+        obj.gameOfLife(board);
+
+        System.out.println("\nAfter:");
+        printBoard(board);
+    }
+
+    // Helper function to print matrix
+    public static void printBoard(int[][] board) {
+        for (int[] row : board) {
+            System.out.println(Arrays.toString(row));
         }
     }
 }
