@@ -66,7 +66,7 @@ public class gameOfLife {
         printBoard(board);
     }
 
-    // Helper function to print
+    // Helper function to 
     public static void printBoard(int[][] board) {
         for (int[] row : board) {
             System.out.println(Arrays.toString(row));
