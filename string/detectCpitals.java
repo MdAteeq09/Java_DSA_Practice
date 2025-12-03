@@ -13,6 +13,6 @@ public class detectCpitals {
         return false;
     }
     public static void main(String[] args) {
-        System.out.println(detectCapitalUse("F"));
+        System.out.println(detectCapitalUse("hello"));
     }
 }
