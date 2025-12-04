@@ -1,5 +1,5 @@
 public class gcd {
-    public int findGCD(int[] nums) {
+    public static int findGCD(int[] nums) {
         int min = nums[0];
         int max = nums[0];
 
@@ -10,10 +10,15 @@ public class gcd {
         return gcd(min, max);
     }
 
-    public int gcd(int a, int b){
+    public static int gcd(int a, int b){
         if(b == 0){
             return a;
         }
         return gcd(b, a % b);
+    }
+
+    public static void main(String[] args) {
+        int arr[] = {3,3};
+        findGCD(arr);
     }
 }
