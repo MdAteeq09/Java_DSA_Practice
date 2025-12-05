@@ -18,7 +18,7 @@ public class gcd {
     }
 
     public static void main(String[] args) {
-        int arr[] = {3,3,4};
+        int arr[] = {3,3,};
         System.out.println(findGCD(arr));
     }
 }
