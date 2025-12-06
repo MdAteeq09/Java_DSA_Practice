@@ -49,7 +49,7 @@ public class decodeString {
 		return result.toString();
 	}
     public static void main(String[] args) {
-        String s = "3[a]2[bc]";
+        String s = "3[a2[c]]";
         System.out.println(decodeString(s));
     }
 }
