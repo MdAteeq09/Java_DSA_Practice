@@ -49,6 +49,6 @@ public class decodeString {
 		return result.toString();
 	}
     public static void main(String[] args) {
-        
+        System.out.println(decodeString("3[a]2[bc]"));
     }
 }
