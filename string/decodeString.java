@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 public class decodeString {
-    public String decodeString(String s) {
+    public static String decodeString(String s) {
 		Stack<Integer> numStack = new Stack<>();
 		Stack<String> stringStack = new Stack<>();
 		int k = 0;
@@ -48,4 +48,7 @@ public class decodeString {
 		}
 		return result.toString();
 	}
+    public static void main(String[] args) {
+        
+    }
 }
