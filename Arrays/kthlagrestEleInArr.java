@@ -1,7 +1,7 @@
 import java.util.PriorityQueue;
 
 public class kthlagrestEleInArr {
-     public int findKthLargest(int[] nums, int k) {
+     public static int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(); 
         
         for (int i = 0; i < k; i++) {
@@ -15,5 +15,8 @@ public class kthlagrestEleInArr {
             }
         }
         return pq.peek();
+    }
+    public static void main(String[] args) {
+        
     }
 }
