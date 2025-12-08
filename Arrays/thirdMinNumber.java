@@ -23,7 +23,6 @@ public class thirdMinNumber {
             }
         }
 
-      
         return third == Long.MIN_VALUE ? (int) first : (int) third;
     }
     public static void main(String[] args) {
