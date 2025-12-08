@@ -6,8 +6,11 @@ public class thirdMinNumber {
 
         for (int num : nums) {
             long n = num;
+
+            // skip duplicates
             if (n == first || n == second || n == third) continue;
 
+            // update top 3 values
             if (n > first) {
                 third = second;
                 second = first;
@@ -20,6 +23,7 @@ public class thirdMinNumber {
             }
         }
 
+        // if third max doesn't exist, return first (max)
         return third == Long.MIN_VALUE ? (int) first : (int) third;
     }
     public static void main(String[] args) {
