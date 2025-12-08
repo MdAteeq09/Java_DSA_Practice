@@ -10,7 +10,7 @@ public class thirdMinNumber {
             // skip duplicates
             if (n == first || n == second || n == third) continue;
 
-            // update top 3 values
+
             if (n > first) {
                 third = second;
                 second = first;
