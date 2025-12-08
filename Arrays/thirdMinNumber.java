@@ -6,10 +6,7 @@ public class thirdMinNumber {
 
         for (int num : nums) {
             long n = num;
-
-            // skip duplicates
             if (n == first || n == second || n == third) continue;
-
 
             if (n > first) {
                 third = second;
