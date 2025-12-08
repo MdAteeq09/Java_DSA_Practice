@@ -1,5 +1,5 @@
 public class thirdMinNumber {
-    public int thirdMax(int[] nums) {
+    public static int thirdMax(int[] nums) {
         long first = Long.MIN_VALUE;
         long second = Long.MIN_VALUE;
         long third = Long.MIN_VALUE;
@@ -28,5 +28,6 @@ public class thirdMinNumber {
     }
     public static void main(String[] args) {
         int nums[] = {2,2,3,1};
+        System.out.println(thirdMax(nums));
     }
 }
