@@ -16,7 +16,6 @@ public class pascaltriangle {
     for (int i = 1; i < numRows; i++) {
       List<Integer> prevRow = result.get(i - 1);
 
-      // Start the next row
       ArrayList<Integer> row = new ArrayList<>();
       row.add(1);
       for (int j = 0; j < i - 1; j++) {
