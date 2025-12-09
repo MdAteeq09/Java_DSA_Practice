@@ -24,7 +24,6 @@ public class pascaltriangle {
       }
       row.add(1);
 
-      // Add this new row to final result
       result.add(row);
     }
 
