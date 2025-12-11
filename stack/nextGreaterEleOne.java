@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Stack;
 
 public class nextGreaterEleOne {
-     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Stack<Integer> stack = new Stack<>();
         Map<Integer, Integer> map = new HashMap<>();
         
@@ -36,9 +36,8 @@ public class nextGreaterEleOne {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
         int[] nums1 = {4, 1, 2};
         int[] nums2 = {1, 3, 4, 2};
-        System.out.println(Arrays.toString(sol.nextGreaterElement(nums1, nums2)));
+        System.out.println(Arrays.toString(nextGreaterElement(nums1, nums2)));
     }
 }
