@@ -1,7 +1,4 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 public class nextGreaterEleOne {
      public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
