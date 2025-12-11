@@ -23,7 +23,7 @@ public class nextGreaterEleOne {
             stack.push(nums2[i]);
         }
 
-
+        // Build the result for nums1
         int[] result = new int[nums1.length];
         for (int i = 0; i < nums1.length; i++) {
             result[i] = map.get(nums1[i]);
