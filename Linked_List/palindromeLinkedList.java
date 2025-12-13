@@ -57,4 +57,7 @@ public class palindromeLinkedList {
         }
         return prev;
     }
+    public static void main(String[] args) {
+        int[] head = {1,2,2,1};
+    }
 }
