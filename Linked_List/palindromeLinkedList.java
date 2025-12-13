@@ -10,7 +10,7 @@ public class palindromeLinkedList {
             this.next = null;
         }
     }
-    public boolean isPalindrome(ListNode head) {
+    public static boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null) return true;
 
         // Step 1: Find middle (slow reaches mid)
@@ -46,7 +46,7 @@ public class palindromeLinkedList {
     }
 
     // Reverse Linked List function
-    private ListNode reverse(ListNode head) {
+    private static ListNode reverse(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
         while(curr != null) {
