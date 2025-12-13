@@ -1,5 +1,3 @@
-import java.lang.classfile.components.ClassPrinter.ListNode;
-
 public class palindromeLinkedList {
     public static class ListNode {
         int data;
@@ -58,6 +56,11 @@ public class palindromeLinkedList {
         return prev;
     }
     public static void main(String[] args) {
-        int[] head = {1,2,2,1};
+       ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(2);
+        head.next.next.next = new ListNode(1);
+
+        System.out.println(isPalindrome(head));
     }
 }
