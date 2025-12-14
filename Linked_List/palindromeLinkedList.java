@@ -20,7 +20,6 @@ public class palindromeLinkedList {
             fast = fast.next.next;
         }
 
-        // Step 2: Reverse second half
         ListNode secondHalf = reverse(slow);
 
         // Step 3: Compare first half & reversed second half
