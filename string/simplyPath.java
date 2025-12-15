@@ -22,4 +22,8 @@ public class simplyPath {
         }
         return "/" + String.join("/", stack);
     }
+    public static void main(String[] args) {
+        String str = "/.../a/../b/c/../d/./";
+        System.out.println(simplifyPath(str));
+    }
 }
