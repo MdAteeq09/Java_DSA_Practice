@@ -23,7 +23,7 @@ public class simplyPath {
         return "/" + String.join("/", stack);
     }
     public static void main(String[] args) {
-        String str = "/home/user/Documents/../Pictures";
+        String str = "/home//foo/";
         System.out.println(simplifyPath(str));
     }
 }
