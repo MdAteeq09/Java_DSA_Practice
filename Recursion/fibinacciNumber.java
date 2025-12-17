@@ -9,7 +9,7 @@ public class fibinacciNumber {
         return fnm1 + fnm2;
     }
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         System.out.println(fib(n));
     }
 }
