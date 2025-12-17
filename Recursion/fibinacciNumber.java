@@ -1,7 +1,7 @@
 public class fibinacciNumber {
     public static int fib(int n) {
         if(n == 1 || n == 0) {
-            return n;
+            return n;// base condition 
         }
 
         int fnm1 = fib(n-1);
