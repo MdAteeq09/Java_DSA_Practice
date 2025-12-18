@@ -11,8 +11,8 @@ public class timeNeededToBuyTickest {
         return time;
     }
     public static void main(String[] args) {
-        int tickets[] = {2,3,2};
-        int target = 2;
+        int tickets[] = {5,1,1,1};
+        int target = 0;
         System.out.print(timeRequiredToBuy(tickets, target));   
     }
 }
