@@ -55,7 +55,7 @@ public class wordBreak {
             insert(arr[i]);
         }
 
-         String key = "ilikesamsu";
+         String key = "ilikesamsung";
          System.out.println(wordBreak(key));
     }
 }
