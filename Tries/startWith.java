@@ -52,7 +52,7 @@ public class startWith {
     }
 
     public static void main(String[] args) {
-        String word[] = {"apple", "a", "mango", "man", "women"};
+        String word[] = {"apple", "app", "mango", "man", "women"};
         String prefix1 = "app";
         String prefix2 = "moon";
 
