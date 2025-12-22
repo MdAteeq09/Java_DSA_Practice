@@ -25,7 +25,7 @@ public class AddBinary {
     }
     public static void main(String args[]) {
         String str1 = "11";
-        String str2 = "100";
+        String str2 = "10";
         System.out.println(addBinary(str1, str2));
 
     }
