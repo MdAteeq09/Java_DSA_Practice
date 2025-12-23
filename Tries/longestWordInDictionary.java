@@ -52,7 +52,7 @@ public class longestWordInDictionary {
                     ans = temp.toString();
                 }
                 longestWord(root.children[i], temp);
-                temp.deleteCharAt(temp.length()-1); // backtra
+                temp.deleteCharAt(temp.length()-1); // backt
             }
         }
     }
