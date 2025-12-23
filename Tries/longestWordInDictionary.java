@@ -58,7 +58,7 @@ public class longestWordInDictionary {
     }
 
     public static void main(String[] args) {
-        String words [] = {"a", "banana", "app", "appl", "ap", "apply"};
+        String words [] = {"a", "banana", "app", "appl", "ap", "apply", "apple"};
 
         for(int i=0; i<words.length; i++) {
             insert(words[i]);
