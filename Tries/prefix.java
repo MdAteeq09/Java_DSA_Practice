@@ -46,7 +46,7 @@ public class prefix {
 
     public static Node root = new Node();  
     public static void main(String[] args) {
-        String arr[] = {"zebra", "do", "duck", "dove"};
+        String arr[] = {"zebra", "dog", "duck", "dove"};
         for(int i=0; i<arr.length; i++) {
             insert(arr[i]);
         }
