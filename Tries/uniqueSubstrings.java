@@ -54,6 +54,7 @@ public class uniqueSubstrings {
     public static void main(String[] args) {
         String str = "ababa";
 
+        //step 1 and 2 find all suffix and insert them in trie
         for(int i=0; i<str.length(); i++) {
             String suffix = str.substring(i);
             insert(suffix);
