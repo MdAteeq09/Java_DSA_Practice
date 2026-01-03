@@ -19,7 +19,6 @@ public class minDisBetTwoNodes {
         Node leftLca = lca2(root.left, n1, n2);
         Node rightLca = lca2(root.right, n1, n2);
 
-        //leftLca = val rightlca = null
         if(rightLca == null) {
             return leftLca;
         }
