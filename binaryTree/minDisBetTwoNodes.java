@@ -60,14 +60,7 @@ public class minDisBetTwoNodes {
         return dist1 + dist2;
     }
     public static void main(String[] agrs) {
-        /*
-               1
-             /  \
-            2    3
-           / \  / \
-           4  5 6  7
-         */
-
+        
         Node root = new Node(1);
         root.left = new Node(2);
         root.right = new Node(3);
