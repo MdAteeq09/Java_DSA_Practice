@@ -50,7 +50,8 @@ public class subtreeOfAnothertree {
            / \  / \
            4  5 6  7
          */
-//tree creation
+//tree 
+
         Node root = new Node(1);
         root.left = new Node(2);
         root.right = new Node(3);
