@@ -24,7 +24,7 @@ public class topView {
     }
 
     public static void topview(Node root) {
-      
+        // level order traversal
         Queue<Info> q = new LinkedList<>();
         HashMap<Integer, Node> map = new HashMap<>();
 
@@ -42,7 +42,7 @@ public class topView {
                     q.add(null);
                 }
             } else {
-                if (!map.containsKey(curr.hd)) { 
+                if (!map.containsKey(curr.hd)) { // first time my hd occuring
                     map.put(curr.hd, curr.node);
                 }
 
