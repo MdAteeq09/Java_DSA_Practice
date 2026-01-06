@@ -24,7 +24,7 @@ public class topView {
     }
 
     public static void topview(Node root) {
-        // level order traversal
+      
         Queue<Info> q = new LinkedList<>();
         HashMap<Integer, Node> map = new HashMap<>();
 
