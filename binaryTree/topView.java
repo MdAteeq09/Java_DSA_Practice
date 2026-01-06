@@ -42,7 +42,7 @@ public class topView {
                     q.add(null);
                 }
             } else {
-                if (!map.containsKey(curr.hd)) { // first time my hd occuring
+                if (!map.containsKey(curr.hd)) { 
                     map.put(curr.hd, curr.node);
                 }
 
