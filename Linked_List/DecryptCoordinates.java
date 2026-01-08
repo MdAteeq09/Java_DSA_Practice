@@ -40,7 +40,6 @@ public class DecryptCoordinates {
 
         Scanner sc = new Scanner(System.in);
 
-        // Input encrypted strings (lowercase)
         String s1 = sc.next(); // latitude
         String s2 = sc.next(); // longitude
 
