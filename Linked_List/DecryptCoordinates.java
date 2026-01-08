@@ -51,7 +51,7 @@ public class DecryptCoordinates {
         int longValue = getValue(s2);
         String longDir = getDirection(s2.charAt(s2.length() - 1));
 
-        // Output
+
         System.out.println("Latitude  : " + latValue + " " + latDir);
         System.out.println("Longitude : " + longValue + " " + longDir);
     }
