@@ -7,7 +7,7 @@ public class DecryptCoordinates {
 
         int[] freq = new int[26];
 
-        // Traverse string except last character (direction)
+ 
         for (int i = 0; i < s.length() - 1; i++) {
             char ch = s.charAt(i);   // lowercase guaranteed
             freq[ch - 'a']++;
