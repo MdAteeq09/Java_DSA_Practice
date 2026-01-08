@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DecryptCoordinates {
 
-    // Function to calculate integer value (max freq - min freq)
+
     public static int getValue(String s) {
 
         int[] freq = new int[26];
