@@ -16,7 +16,7 @@ public class DecryptCoordinates {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
 
-        // Find min and max frequency
+  
         for (int i = 0; i < 26; i++) {
             if (freq[i] > 0) {       // ignore zero
                 max = Math.max(max, freq[i]);
