@@ -27,7 +27,7 @@ public class DecryptCoordinates {
         return max - min;
     }
 
-    // Function to get direction from last character
+
     public static String getDirection(char ch) {
         if (ch == 'n') return "North";
         if (ch == 's') return "South";
