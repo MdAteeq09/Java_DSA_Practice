@@ -38,6 +38,6 @@ public class arrToBalbst {
         int arr[] = {3, 5, 6, 8, 10, 11, 12};
 
         Node root = createBst(arr, 0, arr.length-1);
-        preOrder(root);
+        preOrder(root);//preorder traversal
     }
 }
