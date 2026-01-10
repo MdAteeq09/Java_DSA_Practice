@@ -57,7 +57,7 @@ public class bst {
         else if(root.data > val) {
             root.left = delete(root.left, val);
         }
-        else{ 
+        else{ // voila
             //case 1 - leaf node
             if(root.left == null && root.right == null) {
                 return null;
