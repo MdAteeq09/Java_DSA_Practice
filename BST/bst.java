@@ -98,11 +98,11 @@ public class bst {
         inorder(root);
         System.out.println();
 
-        // if(search(root, 11)) {
-        //     System.out.println("Found");
-        // } else {
-        //     System.out.println("Not found");
-        // }
+        if(search(root, 11)) {
+            System.out.println("Found");
+        } else {
+            System.out.println("Not found");
+        }
 
         root = delete(root, 5);
         System.out.println();
