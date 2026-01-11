@@ -44,7 +44,7 @@ public class bstToBalBst {
     }
 
     public static Node balBST (Node root) {
-        //inorder seq
+
         ArrayList<Integer> inorder = new ArrayList<>();
         getInorder(root, inorder);
 
