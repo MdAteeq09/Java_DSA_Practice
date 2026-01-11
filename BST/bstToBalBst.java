@@ -44,11 +44,11 @@ public class bstToBalBst {
     }
 
     public static Node balBST (Node root) {
-
+        //inorder seq
         ArrayList<Integer> inorder = new ArrayList<>();
         getInorder(root, inorder);
 
-
+        //sorted inorder -> balBST
         root = createBST(inorder, 0, inorder.size()-1);
 
         return root;
