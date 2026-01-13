@@ -80,12 +80,22 @@ public class mergeTwoBST {
     } 
 
     public static void main(String[] args) {
-        
+        /*
+         * 2
+         * / \
+         * 1 4
+         * BST1
+         */
         Node root1 = new Node(2);
         root1.left = new Node(1);
         root1.right = new Node(4);
 
-    
+        /*
+         * 9
+         * / \
+         * 3 12
+         * BST2
+         */
         Node root2 = new Node(9);
         root2.left = new Node(3);
         root2.right = new Node(12);
