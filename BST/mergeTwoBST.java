@@ -85,12 +85,7 @@ public class mergeTwoBST {
         root1.left = new Node(1);
         root1.right = new Node(4);
 
-        /*
-         * 9
-         * / \
-         * 3 12
-         * BST2
-         */
+    
         Node root2 = new Node(9);
         root2.left = new Node(3);
         root2.right = new Node(12);
