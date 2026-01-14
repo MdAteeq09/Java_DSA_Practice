@@ -34,7 +34,13 @@ public class mirrorBST {
     }
 
     public static void main(String[] args) {
-      
+        /*
+                    8
+                   / \
+                  5   10 
+                 / \    \
+                3   6    11
+        */
         Node root = new Node(8);
         root.left = new Node(5);
         root.right = new Node(10);
