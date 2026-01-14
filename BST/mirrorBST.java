@@ -1,4 +1,4 @@
-public class mirror {
+public class mirrorBST {
     static class Node {
         int data;
         Node left;
