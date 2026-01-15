@@ -63,6 +63,6 @@ public class printRange {
         inorder(root);
         System.out.println();
 
-        printInRange(root, 5, 12);
+        printInRange(root, 5, 12);//print range
     }
 }
