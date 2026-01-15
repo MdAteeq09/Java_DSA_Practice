@@ -18,7 +18,7 @@ public class printRange {
         if (root.data > val) {
             // left subtree
             root.left = insert(root.left, val);
-        } else { //rught subtree
+        } else { //right subtree
             root.right = insert(root.right, val);
         }
         return root;
