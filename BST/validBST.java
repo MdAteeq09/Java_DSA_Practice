@@ -51,7 +51,7 @@ public class validBST {
     }
 
     public static void main(String[] args) {
-        int val [] = {8, 5, 3, 6, 10, 11, 14};
+        int val [] = {8, 5, 3, 6, 10, 11};
         Node root = null;
 
         for(int i=0; i<val.length; i++) {
