@@ -26,7 +26,7 @@ public class allPathFromSrctoDest {
         graph[4].add(new Edge(4, 1));
 
         graph[5].add(new Edge(5, 0));
-        graph[5].add(new Edge(5, 2));
+        graph[6].add(new Edge(5, 2));
     }
 
     public static void printAllPath(ArrayList<Edge> graph[], int src, int dest, String path) {
