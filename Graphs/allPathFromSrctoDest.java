@@ -16,7 +16,7 @@ public class allPathFromSrctoDest {
             graph[i] = new ArrayList<>();
         }
 
-        graph[0].add(new Edge(0, 5));
+        graph[0].add(new Edge(0, 3));
 
         graph[2].add(new Edge(2, 3));
 
