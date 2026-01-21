@@ -74,7 +74,6 @@ public class ArticulationPoint {
         }
 
 
-    //print all Articulation points
         for(int i=0; i<V; i++) {
             if(ap[i]) {
                 System.out.println("AP : "+i);
