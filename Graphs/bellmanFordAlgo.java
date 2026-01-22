@@ -115,6 +115,6 @@ public class bellmanFordAlgo {
 
         ArrayList<Edge> graph = new ArrayList<>();
         createGraph2(graph);
-        bellmanFord(graph, 0, v);
+        bellmanFord(graph, 0, v); //
     }
 }
