@@ -57,7 +57,7 @@ public class bfsDfsTraversal {
 
     public static void bfsUtil(ArrayList<Edge>[] graph, boolean vis[]) {
         Queue<Integer> q = new LinkedList<>();
-        q.add(0); //source 0
+        q.add(0); //source 
 
         while (!q.isEmpty()) {
             int curr = q.remove();
