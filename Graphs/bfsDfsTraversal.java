@@ -81,7 +81,7 @@ public class bfsDfsTraversal {
     }
 
     public static void dfsUtil(ArrayList<Edge> graph[], int curr, boolean vis[]) {
-        //visit
+        //visit node
         System.out.print(curr+" ");
         vis[curr] = true;
 
