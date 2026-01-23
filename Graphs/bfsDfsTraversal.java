@@ -97,7 +97,7 @@ public class bfsDfsTraversal {
         int v =7;
         ArrayList<Edge> graph[] = new ArrayList[v];
         createGraph(graph);
-        // bfs(graph);
+        bfs(graph);
         dfsUtil(graph, 0, new boolean[v]);
     }
 }
