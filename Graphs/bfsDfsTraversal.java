@@ -62,7 +62,7 @@ public class bfsDfsTraversal {
         while (!q.isEmpty()) {
             int curr = q.remove();
 
-            if(!vis[curr]) { //visit curr
+            if(!vis[curr]) { //visit 
                 System.out.print(curr+" ");
                 vis[curr] = true;
                 for(int i=0; i<graph[curr].size(); i++) {
