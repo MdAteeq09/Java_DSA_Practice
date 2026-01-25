@@ -34,7 +34,7 @@ public class bridge {
         graph[4].add(new Edge(4, 3));
         graph[4].add(new Edge(4, 5));
 
-        // graph[5].add(new Edge(5, 3));
+        graph[5].add(new Edge(5, 3));
         // graph[5].add(new Edge(5, 4));
     }
 
