@@ -35,7 +35,7 @@ public class bridge {
         graph[4].add(new Edge(4, 5));
 
         graph[5].add(new Edge(5, 3));
-        // graph[5].add(new Edge(5, 4));
+        graph[5].add(new Edge(5, 4));
     }
 
     public static void dfs(ArrayList<Edge> graph[], int curr, int par, int dt[], int low[], boolean vis[], int time) {
