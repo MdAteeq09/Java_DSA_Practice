@@ -73,7 +73,7 @@ public class cheapestFlightsWithkStops {
             }
         }
 
-        //dist
+        //dist[dest]
         if(dist[dest] == Integer.MAX_VALUE) {
             return -1;
         } else {
