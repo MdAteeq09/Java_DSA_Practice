@@ -83,7 +83,7 @@ public class cheapestFlightsWithkStops {
 
     public static void main(String[] args) {
         int n = 4;
-        int flights[][] = { { 0, 1, 100 }, { 1, 2, 100 }, { 1, 3, 600 }, { 2, 3, 200 } };
+        int flights[][] = { { 0, 1, 100 }, { 1, 2, 100 }, { 1, 3, 600}, { 2, 3, 200 } };
         int src = 0, dest = 3, k = 1;
         System.out.println(cheapestFlight(n, flights, src, dest, k));
     }
