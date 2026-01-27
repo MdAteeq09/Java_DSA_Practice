@@ -11,7 +11,7 @@ public class connectingCities {
 
         @Override
         public int compareTo(Edge e2) {
-            return this.cost - e2.cost; //
+            return this.cost - e2.cost; // ascending
         }
     }
 
