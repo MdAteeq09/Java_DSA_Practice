@@ -23,7 +23,7 @@ public class cycleDetectD {
 
         // graph[2].add(new Edge(2, 3));
 
-        // graph[3].add(new Edge(3, 0));
+        graph[3].add(new Edge(3, 0));
 
         
         // no cycle
