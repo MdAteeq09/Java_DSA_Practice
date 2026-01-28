@@ -17,7 +17,7 @@ public class cycleDetectD {
         }
 
         // cycle exist
-        // graph[0].add(new Edge(0, 2));
+        graph[0].add(new Edge(0, 2));
 
         graph[1].add(new Edge(1, 0));
 
