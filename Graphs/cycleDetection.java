@@ -70,7 +70,7 @@ public class cycleDetection {
         ArrayList<Edge> graph[] = new ArrayList[v];
         createGraph(graph);
 
-        System.out.println(detectCycle(graph));
+        System.out.println(detectCycle(graph));//
     }
 }
 
