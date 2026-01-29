@@ -56,7 +56,7 @@ public class cycleDetection {
                     return true;
                 }
             }
-            //case 1 
+            //
             else if(vis[e.dest] && e.dest != par) {
                 return true;
             }
