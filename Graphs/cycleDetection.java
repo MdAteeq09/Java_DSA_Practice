@@ -50,17 +50,17 @@ public class cycleDetection {
         for(int i=0; i<graph[curr].size(); i++) {
             Edge e = graph[curr].get(i);
 
-            //
+            //case 3
             if(!vis[e.dest]) {
                 if(detectCycleUtil(graph, vis, e.dest, curr)) {
                     return true;
                 }
             }
-            //
+            //case 1 
             else if(vis[e.dest] && e.dest != par) {
                 return true;
             }
-            //
+            //case 2 -> do nothimg -> continue
         }
         return false;
     }
