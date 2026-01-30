@@ -83,6 +83,6 @@ public class cycleDetectionBFS {
         ArrayList<Edge>[] graph = new ArrayList[v];
         createGraph(graph);
 
-        System.out.println(detectCycleBFS(graph)); // 
+        System.out.println(detectCycleBFS(graph)); 
     }
 }
