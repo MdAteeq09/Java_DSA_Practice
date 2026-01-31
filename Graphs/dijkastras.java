@@ -81,7 +81,7 @@ public class dijkastras {
             }
         }
 
-        //print all sorce to vertices shortest dist
+        //
         for(int i=0; i<dist.length; i++) {
             System.out.print(dist[i]+" ");
         }
