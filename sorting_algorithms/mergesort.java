@@ -45,7 +45,7 @@ public class mergesort {
             temp[k++] = arr[j++];
         }
 
-        //copy temp to original array
+    
         for(k=0, i=si; k<temp.length; k++,i++) {
             arr[i] = temp[k];
         }
@@ -55,7 +55,7 @@ public class mergesort {
 
     public static void main(String[] args) {
         int arr[] = {6,3,9,5,2,8};
-        mergSort(arr, 0, arr.length-1); // merge fuction call
-        printArr(arr); //print the array
+        mergSort(arr, 0, arr.length-1); 
+        printArr(arr); 
     }
 }
