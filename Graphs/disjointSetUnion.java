@@ -31,7 +31,7 @@ public class disjointSetUnion {
         }
     }
     public static void main(String[] args) {
-        init();/// init
+        init();
         System.out.println(find(3));
         union(1, 3);
         System.out.println(find(3));
