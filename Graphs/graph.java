@@ -40,7 +40,7 @@ public class graph {
 
         //2's neighbour
         for(int i=0; i<graph[2].size(); i++) {
-            Edge e = graph[2].get(i); // src
+            Edge e = graph[2].get(i); // src, dest, wt
             System.out.println(e.dest);
         }
     }
