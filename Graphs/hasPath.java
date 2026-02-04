@@ -27,7 +27,7 @@ public class hasPath {
         graph[2].add(new Edge(2, 4, 1));
     
 
-        //
+        //3 vertex 
         graph[3].add(new Edge(3,1,1));
         graph[3].add(new Edge(3, 4,1));
         graph[3].add(new Edge(3, 5, 1));
