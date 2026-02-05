@@ -68,7 +68,7 @@ public class kruskals {
 
         for(int i=0; count<V-1; i++) {
             Edge e = edges.get(i);
-            //
+            //src, dest, wt
 
             int parA = find(e.src); //src = a
             int parB = find(e.dest);
