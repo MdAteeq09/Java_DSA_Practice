@@ -70,7 +70,7 @@ public class kruskals {
             Edge e = edges.get(i);
             //src, dest, wt
 
-            int parA = find(e.src); //
+            int parA = find(e.src); //src = a
             int parB = find(e.dest);
             if(parA != parB) {
                 union(e.src, e.dest);
