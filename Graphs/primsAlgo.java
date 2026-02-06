@@ -44,7 +44,7 @@ public class primsAlgo {
 
         @Override
         public int compareTo(Pair p2) {
-            return this.cost - p2.cost; //
+            return this.cost - p2.cost; //ascending
         }
     }
 
