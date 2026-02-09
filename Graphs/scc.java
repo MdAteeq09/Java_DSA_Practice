@@ -52,7 +52,7 @@ public class scc {
     }
 
     public static void kusaraju(ArrayList<Edge> graph[], int V) {
-        //step 1 topological sort
+        // topological sort
         Stack<Integer> s = new Stack<>();
         boolean vis[] = new boolean[V];
         for(int i=0; i<V; i++) {
