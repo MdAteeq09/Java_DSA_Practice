@@ -61,7 +61,7 @@ public class scc {
             }
         }
 
-        //step2
+        //step 2
         ArrayList<Edge> transpose[]= new ArrayList[V];
         for(int i=0; i<graph.length; i++) {
             vis[i]= false;
