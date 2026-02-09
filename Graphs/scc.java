@@ -86,7 +86,7 @@ public class scc {
         }
     }
     public static void main(String[] args) {
-        int v = 4;
+        int v = 5;
         ArrayList<Edge> graph[] = new ArrayList[v];
         createGraph(graph);
         kusaraju(graph, v);
