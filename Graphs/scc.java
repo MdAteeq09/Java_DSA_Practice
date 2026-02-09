@@ -75,7 +75,7 @@ public class scc {
             }
         }
 
-        //step3
+        //step 3
         while (!s.isEmpty()) {
             int curr = s.pop();
             if(!vis[curr]) {
