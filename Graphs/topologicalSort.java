@@ -17,7 +17,7 @@ public class topologicalSort {
             graph[i] = new ArrayList<>();
         }
 
-        // no cycle
+        // 
         graph[2].add(new Edge(2, 3));
 
         graph[3].add(new Edge(3, 1));
