@@ -46,7 +46,7 @@ public class catalanNumber {
         return dp[n];
     }
     public static void main(String[] args) {
-        int n = 30;
+        int n = 5;
         // System.out.println(caltlanRec(n));
 
         int dp[] = new int[n+1];
