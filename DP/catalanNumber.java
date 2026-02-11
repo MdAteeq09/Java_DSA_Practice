@@ -47,7 +47,7 @@ public class catalanNumber {
     }
     public static void main(String[] args) {
         int n = 5;
-        System.out.println(caltlanRec(n));
+        // System.out.println(caltlanRec(n));
 
         int dp[] = new int[n+1];
         Arrays.fill(dp, -1);
