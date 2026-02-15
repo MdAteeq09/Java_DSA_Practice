@@ -21,6 +21,6 @@ public class climbingStairsM {
         int n = 5;
         int ways[] = new int[n+1];
         Arrays.fill(ways, -1);
-        System.out.println(countWays(n, ways));//
+        System.out.println(countWays(n, ways));
     }
 }
