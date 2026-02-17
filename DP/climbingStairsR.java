@@ -10,6 +10,6 @@ public class climbingStairsR {
         return countWays(n-1) + countWays(n-2);
     }
     public static void main(String[] args) {
-        System.out.println(countWays(4));
+        System.out.println(countWays(6));
     }
 }
