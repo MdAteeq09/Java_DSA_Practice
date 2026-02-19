@@ -13,6 +13,6 @@ public class climbingStairsT {
         return dp[n];
     }
     public static void main(String[] args) {
-        System.out.println(countWays(40));
+        System.out.println(countWays(401));
     }
 }
