@@ -17,7 +17,7 @@ public class coinChange {
             for(int j=1; j<sum+1; j++) {
                 if(coins[i-1] <= j) { // valid
                     dp[i][j] = dp[i][j-coins[i-1]] + dp[i-1][j];
-                } else { //invlid
+                } else { //
                     dp[i][j] = dp[i-1][j];
 
                 }
