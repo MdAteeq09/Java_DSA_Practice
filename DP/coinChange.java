@@ -4,7 +4,7 @@ public class coinChange {
         int dp[][] = new int[n+1][sum+1];
 
         //initilization - sum is 0
-        
+        //i -> coins; j ->sum/chnage
         for(int i=0; i<n+1; i++) {
             dp[i][0] = 1;
         }
