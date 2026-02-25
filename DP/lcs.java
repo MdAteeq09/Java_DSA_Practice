@@ -23,7 +23,7 @@ public class lcs {
             return dp[n][m];
         }
 
-        if(str1.charAt(n-1) == str2.charAt(m-1)) { //
+        if(str1.charAt(n-1) == str2.charAt(m-1)) { //same
             return dp[n][m] =  lcsm(str1, str2, n-1, m-1, dp) + 1;
         } else {
             int ans1 = lcsm(str1, str2, n-1, m, dp);
