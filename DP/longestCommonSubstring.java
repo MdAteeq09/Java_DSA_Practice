@@ -28,7 +28,7 @@ public class longestCommonSubstring {
     }
     public static void main(String[] args) {
         String str1 = "ABCDE";//str 1
-        String str2 = "ABGCE";
+        String str2 = "ABGCE";//str 2
         System.out.println(lcs(str1, str2));
     }
 }
