@@ -49,7 +49,7 @@ public class matrixChainMultiplication {
             dp[i][i] = 0;
         }
 
-        //bottom 
+        //bottom up
         for(int len=2; len<=n-1; len++) {
             for(int i=1; i<=n-len; i++) {
                 int j = i+len-1;
