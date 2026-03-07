@@ -23,6 +23,6 @@ public class minArrJumps {
     }
     public static void main(String[] args) {
         int nums[] = {2, 3, 1, 1, 4};
-        System.out.println(minJumps(nums));
+        System.out.println(minJumps(nums));// function call
     }
 }
