@@ -28,7 +28,7 @@ public class minimumpartition {
 
     }
     public static void main(String[] args) {
-        int nums[] = {1, 6, 11, 5};
+        int nums[] = {12, 6, 11, 5};
         System.out.println(minPartition(nums));
     }
 }
