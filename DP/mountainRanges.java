@@ -15,6 +15,6 @@ public class mountainRanges {
     }
     public static void main(String[] args) {
         int n = 4;
-        System.out.println(mountainRange(n));
+        System.out.println(mountainRange(n));//function call
     }
 }
