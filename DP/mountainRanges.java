@@ -14,7 +14,7 @@ public class mountainRanges {
         return dp[n];
     }
     public static void main(String[] args) {
-        int n = 456;
+        int n = 45;
         System.out.println(mountainRange(n));
     }
 }
