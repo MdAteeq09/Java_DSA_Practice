@@ -15,7 +15,7 @@ public class targetSum {
                 if(v <= j && dp[i-1][j-v] == true) {
                     dp[i][j] = true;
                 }
-                //
+                //exclude
                 else if(dp[i-1][j] == true) {
                     dp[i][j] = true;
                 }
