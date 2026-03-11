@@ -8,7 +8,7 @@ public class wildCardPattern {
         //initilzation
         dp[0][0] = true;
 
-        //pattern = " "
+        //pattern = 
         for(int i=1; i<n+1; i++) {
             dp[i][0] = false;
         }
