@@ -19,7 +19,7 @@ public class activitySelection {
         int maxAct = 0;
         ArrayList<Integer> ans = new ArrayList<>();
 
-        //1st 
+        //
         maxAct = 1;
         ans.add(activities[0][0]);
         int lastEnd = activities[0][2];
