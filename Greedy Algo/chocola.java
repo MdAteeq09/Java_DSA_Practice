@@ -18,7 +18,7 @@ public class chocola {
                 cost += (costHor[h] * vp);
                 hp++;
                 h++;
-            } else { // vertical 
+            } else { // vertical cuts
                 cost += (costVar[v] * hp);
                 vp++;
                 v++;
