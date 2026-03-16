@@ -22,7 +22,7 @@ public class indianCoin {
                 }
             }
         }
-        System.out.println("Total (min) coins used = " +countOfCoin);
+        System.out.println("Total (min) coins used : " +countOfCoin);
 
         for(int i=0; i<ans.size(); i++) {
             System.out.print(ans.get(i)+ " ");
