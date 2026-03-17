@@ -34,7 +34,7 @@ public class jobSeq {
             }
         }
 
-        // 
+        // print sqquence
         System.out.println("max jobs = " + seq.size());
         for (int i = 0; i < seq.size(); i++) {
             System.out.print(seq.get(i) + " ");
