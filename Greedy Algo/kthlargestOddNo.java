@@ -1,6 +1,6 @@
 public class kthlargestOddNo {
     public static int largest(int L, int R, int K) {
-        int fO = (R % 20 == 1) ? R : ( R - 1);
+        int fO = (R % 2 == 1) ? R : ( R - 1);
         int ans = fO - 2 * (K - 1);
         
         if(ans < K) {
