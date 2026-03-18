@@ -11,6 +11,6 @@ public class kthlargestOddNo {
     }
     
     public static void main(String[] args) {
-        System.out.println(largest(5,13,1));
+        System.out.println(largest(3,13,1));
     }
 }
