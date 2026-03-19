@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class minAbDiff {
     public static void main(String[] args) {
         int A [] = {1,2,3};
-        int B [] = {2, 1, };
+        int B [] = {2, 1, 3};
 
         Arrays.sort(A);
         Arrays.sort(B);
