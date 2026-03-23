@@ -8,7 +8,7 @@ public class mxLenofPairChain {
         Arrays.sort(pairs, Comparator.comparingDouble(o -> o[1]));
 
         int chainLen = 1;
-        int chainEnd = pairs[0][1]; // last seleceted pair end // chain end
+        int chainEnd = pairs[0][1]; // 
 
         for(int i=0; i<pairs.length; i++) {
             if(pairs[i][0] > chainEnd) {
