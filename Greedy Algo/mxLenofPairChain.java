@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 public class mxLenofPairChain {
     public static void main(String[] args) {
