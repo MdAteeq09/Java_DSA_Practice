@@ -1,4 +1,4 @@
-import java.util.HashSet;
+import java.util.*;
 
 public class distictElemet {
     public static void main(String[] args) {
