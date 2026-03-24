@@ -9,7 +9,7 @@ public class distictElemet {
             set.add(nums[i]);
         }
 
-        System.out.println("ans: "+set.size());
+        System.out.println("answer: "+set.size());
     }
 }
 
