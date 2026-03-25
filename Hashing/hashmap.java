@@ -25,7 +25,7 @@ public class hashmap {
         // System.out.println(hm.remove("Suuu"));
         // System.out.println(hm);
 
-        System.out.println(hm.size());
+        // System.out.println(hm.size());
 
         //iterate
         Set<String> keys = hm.keySet();
