@@ -108,7 +108,7 @@ public class hashMapImp {
 
         public V get(K key) {
            int bi = hashFunction(key);
-            int di = searchInLL(key, bi); // valid -1
+            int di = searchInLL(key, bi); // 
 
             if (di != -1) {
                 Node node = buckets[bi].get(di);
