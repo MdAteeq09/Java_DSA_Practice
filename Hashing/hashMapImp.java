@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class hashMapImp {
-    static class HashMap<K, V> { // 
+    static class HashMap<K, V> { // genric
         private class Node {
             K key;
             V value;
