@@ -7,7 +7,7 @@ public class hashSetOpp {
         hs.add(2);
         hs.add(4);
         hs.add(2);
-        hs.add(1);
+        hs.add(11);
 
         System.out.println(hs);
         hs.clear();
