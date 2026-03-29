@@ -9,10 +9,10 @@ public class iterationOnHs {
         cities.add("Pune");
         cities.add("Nagpur");
 
-        Iterator it = cities.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
+        // Iterator it = cities.iterator();
+        // while (it.hasNext()) {
+        //     System.out.println(it.next());
+        // }
 
         for (String city : cities) {
             System.out.println(city);
