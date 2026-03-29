@@ -8,6 +8,7 @@ public class iterationOnHs {
         cities.add("Hydrabad");
         cities.add("Pune");
         cities.add("Nagpur");
+        cities.add("Nagpur");
 
         // Iterator it = cities.iterator();
         // while (it.hasNext()) {
