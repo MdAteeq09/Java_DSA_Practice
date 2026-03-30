@@ -31,6 +31,6 @@ public class iternityOfTicket {
             start = tickets.get(start);
         }
 
-        System.out.println();
+        System.out.println();//
     }
 }
