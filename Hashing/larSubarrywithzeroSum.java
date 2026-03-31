@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class larSubarrywithzeroSum {
     public static void main(String[] args) {
-        int arr[] = {15, -2, 2, -8, 1, 7, 10 ,23};
+        int arr[] = {15, -2, 2, -8, 1, 17, 10 ,23};
         HashMap<Integer, Integer> map = new HashMap<>();
         //(sum, idx)
 
@@ -18,7 +18,6 @@ public class larSubarrywithzeroSum {
                 map.put(sum, j);
             }
         }
-
         System.out.println("largest subarray with sum as 0 => " +len);
     }
 }
