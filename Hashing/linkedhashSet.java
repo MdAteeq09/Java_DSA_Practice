@@ -15,6 +15,6 @@ public class linkedHashSet {
         lhs.add("Hydrabad");
         lhs.add("Pune");
         lhs.add("Nagpur");
-        System.out.println(lhs);
+        System.out.println(lhs);// 
     }
 }
