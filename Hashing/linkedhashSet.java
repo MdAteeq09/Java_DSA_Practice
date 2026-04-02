@@ -6,7 +6,7 @@ public class linkedHashSet {
         HashSet<String> cities = new HashSet<>();
         cities.add("Nanded");
         cities.add("Hydrabad");
-        cities.add("Pune");
+        cities.add("MUmbai");
         cities.add("Nagpur");
         System.out.println(cities);
 
