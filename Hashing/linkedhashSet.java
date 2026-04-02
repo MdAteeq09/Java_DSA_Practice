@@ -10,7 +10,7 @@ public class linkedHashSet {
         cities.add("Nagpur");
         System.out.println(cities);
 
-        LinkedHashSet<String> lhs = new LinkedHashSet<>();
+        LinkedHashSet<String> Lhs = new LinkedHashSet<>();
         lhs.add("Nanded");
         lhs.add("Hydrabad");
         lhs.add("Pune");
