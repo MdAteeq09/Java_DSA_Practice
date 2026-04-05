@@ -1,6 +1,4 @@
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class treeHashSet {
     public static void main(String[] args) {
