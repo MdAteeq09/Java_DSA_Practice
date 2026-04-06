@@ -6,7 +6,7 @@ public class treeMap {
 
         tm.put("Japan", 150);
         tm.put("India", 100);
-        tm.put("USA", 200);
+        tm.put("UAE", 200);
         tm.put("China", 250);
 
         System.out.println(tm);
