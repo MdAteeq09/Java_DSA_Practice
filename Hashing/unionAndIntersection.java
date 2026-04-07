@@ -6,7 +6,7 @@ public class unionAndIntersection {
         int arr2[] = {6, 3, 9, 2, 9, 4};
         HashSet<Integer> set = new HashSet<>();
 
-        //union
+        //
         for(int i=0; i<arr1.length; i++) {
             set.add(arr1[i]);
         }
@@ -32,8 +32,5 @@ public class unionAndIntersection {
         }
 
         System.out.println("intersection:" +count);
-
-
-
     }
 }
