@@ -28,7 +28,7 @@ public class validAnagram {
     }
     public static void main(String[] args) {
         String s = "racee";
-        String t = "care";
+        String t = "carea";
 
         System.out.println(isAnagram(s, t));
     }
