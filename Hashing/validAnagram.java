@@ -27,7 +27,7 @@ public class validAnagram {
         return map.isEmpty();
     }
     public static void main(String[] args) {
-        String s = "race";
+        String s = "racee";
         String t = "care";
 
         System.out.println(isAnagram(s, t));
