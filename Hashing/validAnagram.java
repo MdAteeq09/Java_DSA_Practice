@@ -30,6 +30,6 @@ public class validAnagram {
         String s = "race";
         String t = "care";
 
-        System.out.println(isAnagram(s, t));//
+        System.out.println(isAnagram(s, t));
     }
 }
