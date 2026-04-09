@@ -2,7 +2,7 @@ import java.util.PriorityQueue;
 
 public class connectNRopes {
     public static void main(String[] args) {
-        int ropes [] = {2, 3, 3, 4, 6, 8};
+        int ropes [] = {2, 3, 3, 4, 6};
 
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
