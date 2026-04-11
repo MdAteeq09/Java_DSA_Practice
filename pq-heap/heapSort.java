@@ -43,7 +43,7 @@ public class heapSort {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 1, 2, 4, 5, 13};
+        int arr[] = { 1, 2, 4, 15, 13};
 
         HeapSort(arr);
 
