@@ -26,7 +26,7 @@ public class nearByCars {
             pq.add(new Point(pts[i][0], pts[i][1], disSq, i));
         }
 
-        //
+        
         for(int i=0; i<k; i++) {
             System.out.println("C"+pq.remove().idx);
         }
