@@ -7,7 +7,7 @@ public class oppInHeap {
             //add at last idx
             arr.add(data);
             
-            int x = arr.size()-1; // x is child idx
+            int x = arr.size()-1; // 
             int par = (x-1) / 2; // par idx
             
             while(arr.get(x) > arr.get(par)) { // min heap < or max heap >
