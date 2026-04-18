@@ -13,10 +13,10 @@ public class slidingWindow {
         @Override
         public int compareTo(Pair p2) {
             //ascending 
-            return this.val - p2.val;
+            //return this.val - p2.val;
 
             //descending
-            // return p2.val - this.val;
+            return p2.val - this.val;
         }
     }
     public static void main(String[] args) {
