@@ -73,9 +73,9 @@ public class cQueueusingArrays {
         System.out.println(q.remove());
         q.add(5);
 
-        // while (!q.isEmpty()) {
-        //     System.out.println(q.peek());
-        //     q.remove();
-        // }
+        while (!q.isEmpty()) {
+            System.out.println(q.peek());
+            q.remove();
+        }
     }
 }
