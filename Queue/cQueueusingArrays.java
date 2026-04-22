@@ -1,4 +1,3 @@
-
 public class cQueueusingArrays {
     static class Queue {
         static int arr[];
