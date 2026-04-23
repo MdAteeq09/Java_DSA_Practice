@@ -17,7 +17,7 @@ public class firstNonRepeating {
             if (q.isEmpty()) {
                 System.out.print(-1 + " ");
             } else {
-                System.out.print(q.peek() + " ");
+                System.out.print(q.peek() +  " ");
             }
         }
         System.out.println();
