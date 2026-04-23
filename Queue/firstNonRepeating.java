@@ -24,7 +24,7 @@ public class firstNonRepeating {
     }
 
     public static void main(String[] args) {
-        String str = "aabccxb";
+        String str = "aabccxbc";
         printNonrepeateing(str);
     }
 }
