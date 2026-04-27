@@ -28,7 +28,7 @@ public class interLeaveQueue {
 
         interLeave(q);
         
-        // print 
+        // print q 
         while(!q.isEmpty()) {
             System.out.print(q.remove() + " ");
         }
