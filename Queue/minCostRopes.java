@@ -23,8 +23,7 @@ public class minCostRopes {
 
     public static void main(String[] args) {
         int arr[] = {1,2,3};
-        int n = 3;
+        int n = 4;
         System.out.println(min(arr, n));
     }
-    
 }
