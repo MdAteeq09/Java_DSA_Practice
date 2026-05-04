@@ -5,7 +5,7 @@ public class queueusingJcf {
         // Queue<Integer> q = new LinkedList<>();
         Queue<Integer> q = new ArrayDeque<>();
 
-        q.add(1);
+        q.add(11);
         q.add(2);
         q.add(3);
 
